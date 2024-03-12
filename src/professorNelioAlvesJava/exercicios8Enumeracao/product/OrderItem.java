@@ -41,9 +41,8 @@ public class OrderItem {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Order items:\n");
         sb.append(getProduct().getName() + ", R$ " + getPrice() + " " + " Quantity: " + getQuantity()
-                + ", Subtotal: " + subTotal());
+                + ", Subtotal: R$" + subTotal());
         return sb.toString();
     }
 

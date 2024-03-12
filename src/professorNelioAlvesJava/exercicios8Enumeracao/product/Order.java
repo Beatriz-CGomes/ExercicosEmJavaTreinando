@@ -62,7 +62,11 @@ public class Order {
     }
 
     public double total() {
-        return 0;
+        double sum = 0;
+        for (OrderItem it : items) {
+            sum += it.subTotal();
+        }
+        return sum;
     }
 
     @Override
@@ -71,6 +75,12 @@ public class Order {
         sb.append("ORDER SUMMARY \n");
         sb.append("Order moment: " + sdf.format(getMoment()) + "\n");
         sb.append("Order status: " + getStatus() + "\n");
+        sb.append("Client: " + getClient() + "\n");
+        sb.append("Order items:\n");
+        for (OrderItem item : items) {
+            sb.append(item + "\n");
+        }
+        sb.append("Total price: R$ " + String.format("%.2f", total()));
         return sb.toString();
     }
 }

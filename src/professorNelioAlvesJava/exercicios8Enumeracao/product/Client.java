@@ -48,7 +48,7 @@ public class Client {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Client: " + getName() + " " + sdf.format(getBirthDate()) + " - " + getEmail());
+        sb.append(getName() + " " + sdf.format(getBirthDate()) + " - " + getEmail());
         return sb.toString();
     }
 }

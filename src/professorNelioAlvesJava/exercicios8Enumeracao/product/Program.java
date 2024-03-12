@@ -25,9 +25,9 @@ public class Program {
 
         System.out.println("Enter order data");
         System.out.print("Status: ");
-        String level = sc.nextLine();
-        Order order = new Order(OrderStatus.valueOf(level));
+        OrderStatus level = OrderStatus.valueOf(sc.next());
 
+        Order order = new Order(new Date(), level, client);
 
         System.out.print("How many items to this order? ");
         int n = sc.nextInt();
@@ -44,12 +44,11 @@ public class Program {
             int quantity = sc.nextInt();
 
             OrderItem orderItem = new OrderItem(quantity, price, new Product(productName, price));
-            System.out.println();
-            System.out.println(orderItem);
+            order.addItem(orderItem);
         }
 
+        System.out.println();
         System.out.println(order);
-        System.out.println(client);
 
 
         sc.close();
