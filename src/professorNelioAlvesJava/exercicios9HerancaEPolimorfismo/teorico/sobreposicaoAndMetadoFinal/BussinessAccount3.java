@@ -1,17 +1,17 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.upcastingAndDowncasting;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.sobreposicaoAndMetadoFinal;
 
-public class BussinessAccount2 extends Account2 {
+public class BussinessAccount3 extends Account3 {
 
     private Double loanLimit;
 
-    public BussinessAccount2() {
+    public BussinessAccount3() {
     }
 
-    public BussinessAccount2(Double loanLimit) {
+    public BussinessAccount3(Double loanLimit) {
         this.loanLimit = loanLimit;
     }
 
-    public BussinessAccount2(Integer number, String holder, Double balance, Double loanLimit) {
+    public BussinessAccount3(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
     }
@@ -28,5 +28,11 @@ public class BussinessAccount2 extends Account2 {
         if (amount <= loanLimit) {
             balance += amount - 10.0;
         }
+    }
+
+    @Override
+    public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2.0;
     }
 }

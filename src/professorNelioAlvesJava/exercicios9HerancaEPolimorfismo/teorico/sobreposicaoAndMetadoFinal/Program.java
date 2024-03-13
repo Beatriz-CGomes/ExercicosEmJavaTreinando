@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.sobreposicaoAndMetadoFinal;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.sobreposicaoAndMetadoFinal;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.polimorfismo;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.polimorfismo;
 
 //se colocar a palavra final antes da class não permite que essa classe seja herdada por outra
 public class SavingAccount4 extends Account4 {

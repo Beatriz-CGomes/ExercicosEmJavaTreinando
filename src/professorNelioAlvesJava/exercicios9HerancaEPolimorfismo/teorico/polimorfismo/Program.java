@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.polimorfismo;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.polimorfismo;
 
 import java.util.Scanner;
 

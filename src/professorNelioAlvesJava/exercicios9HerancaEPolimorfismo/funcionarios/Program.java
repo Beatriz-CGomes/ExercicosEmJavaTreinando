@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.funcionarios;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.funcionarios;
 
 import java.util.ArrayList;
 import java.util.List;

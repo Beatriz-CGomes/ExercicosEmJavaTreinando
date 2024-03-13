@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.upcastingAndDowncasting;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.upcastingAndDowncasting;
 
 public class SavingAccount2 extends Account2 {
 

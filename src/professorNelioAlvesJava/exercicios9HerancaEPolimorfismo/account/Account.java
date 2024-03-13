@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.account;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.account;
 
 public class Account {
 

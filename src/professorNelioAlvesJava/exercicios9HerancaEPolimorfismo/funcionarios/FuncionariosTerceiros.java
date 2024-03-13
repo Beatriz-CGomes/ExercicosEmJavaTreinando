@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.funcionarios;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.funcionarios;
 
 public class FuncionariosTerceiros extends Funcionarios {
 

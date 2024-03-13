@@ -1,15 +1,15 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.polimorfismo;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.upcastingAndDowncasting;
 
-public class Account4 {
+public class Account2 {
 
     private Integer number;
     private String holder;
     protected Double balance;
 
-    public Account4() {
+    public Account2() {
     }
 
-    public Account4(Integer number, String holder, Double balance) {
+    public Account2(Integer number, String holder, Double balance) {
         this.number = number;
         this.holder = holder;
         this.balance = balance;
@@ -32,7 +32,7 @@ public class Account4 {
     }
 
     public void withdraw(double amount) {
-        balance -= (amount + 5);
+        balance -= amount;
     }
 
     public void deposit(double amount) {

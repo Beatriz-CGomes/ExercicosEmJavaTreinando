@@ -1,15 +1,15 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.sobreposicaoAndMetadoFinal;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.polimorfismo;
 
-public class Account3 {
+public class Account4 {
 
     private Integer number;
     private String holder;
     protected Double balance;
 
-    public Account3() {
+    public Account4() {
     }
 
-    public Account3(Integer number, String holder, Double balance) {
+    public Account4(Integer number, String holder, Double balance) {
         this.number = number;
         this.holder = holder;
         this.balance = balance;

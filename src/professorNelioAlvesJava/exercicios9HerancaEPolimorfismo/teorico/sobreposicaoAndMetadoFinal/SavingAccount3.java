@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.sobreposicaoAndMetadoFinal;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.sobreposicaoAndMetadoFinal;
 
 //se colocar a palavra final antes da class não permite que essa classe seja herdada por outra
 public class SavingAccount3 extends Account3 {

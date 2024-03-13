@@ -1,17 +1,17 @@
-package professorNelioAlvesJava.exercicios9Heranca.account;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.upcastingAndDowncasting;
 
-public class BusinessAccount extends Account {
+public class BussinessAccount2 extends Account2 {
 
     private Double loanLimit;
 
-    public BusinessAccount() {
+    public BussinessAccount2() {
     }
 
-    public BusinessAccount(Double loanLimit) {
+    public BussinessAccount2(Double loanLimit) {
         this.loanLimit = loanLimit;
     }
 
-    public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
+    public BussinessAccount2(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
     }

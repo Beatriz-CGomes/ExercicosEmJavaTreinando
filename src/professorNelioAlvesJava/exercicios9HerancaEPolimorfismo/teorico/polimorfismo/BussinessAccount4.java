@@ -1,17 +1,17 @@
-package professorNelioAlvesJava.exercicios9Heranca.teorico.sobreposicaoAndMetadoFinal;
+package professorNelioAlvesJava.exercicios9HerancaEPolimorfismo.teorico.polimorfismo;
 
-public class BussinessAccount3 extends Account3 {
+public class BussinessAccount4 extends Account4 {
 
     private Double loanLimit;
 
-    public BussinessAccount3() {
+    public BussinessAccount4() {
     }
 
-    public BussinessAccount3(Double loanLimit) {
+    public BussinessAccount4(Double loanLimit) {
         this.loanLimit = loanLimit;
     }
 
-    public BussinessAccount3(Integer number, String holder, Double balance, Double loanLimit) {
+    public BussinessAccount4(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
     }
