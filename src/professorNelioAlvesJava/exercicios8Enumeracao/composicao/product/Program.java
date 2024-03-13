@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios8Enumeracao.product;
+package professorNelioAlvesJava.exercicios8Enumeracao.composicao.product;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios8Enumeracao.worker;
+package professorNelioAlvesJava.exercicios8Enumeracao.composicao.worker;
 
 public class Department {
 
