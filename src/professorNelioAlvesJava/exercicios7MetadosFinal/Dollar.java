@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios7MetadosAbastrato;
+package professorNelioAlvesJava.exercicios7MetadosFinal;
 
 public class Dollar {
 
