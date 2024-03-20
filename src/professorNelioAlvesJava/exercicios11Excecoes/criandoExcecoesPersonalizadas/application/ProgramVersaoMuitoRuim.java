@@ -22,8 +22,8 @@ public class ProgramVersaoMuitoRuim {
         if (!checkOut.after(checkIn)) {
             System.out.println("Error in reservation: Check-out date must be after check-in date");
         } else {
-            Reservation reservation = new Reservation(number, checkIn, checkOut);
-            System.out.println("Reservation: " + reservation);
+          //  Reservation reservation = new Reservation(number, checkIn, checkOut);
+          //  System.out.println("Reservation: " + reservation);
 
             System.out.println();
             System.out.println("Enter data to update  the reservation: ");
@@ -38,8 +38,8 @@ public class ProgramVersaoMuitoRuim {
             } else if (!checkOut.after(checkIn)) {
                 System.out.println("Error in reservation: Check-out date must be after check-in date");
             } else {
-                reservation.updateDate(checkIn, checkOut);
-                System.out.println("Reservation: " + reservation);
+              // reservation.updateDate(checkIn, checkOut);
+             //   System.out.println("Reservation: " + reservation);
             }
         }
 
