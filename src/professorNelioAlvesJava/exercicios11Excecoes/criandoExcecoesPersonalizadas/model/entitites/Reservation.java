@@ -1,6 +1,6 @@
 package professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.entitites;
 
-import professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.exceptions.DomainException;
+import professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.entitites.exceptions.DomainException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

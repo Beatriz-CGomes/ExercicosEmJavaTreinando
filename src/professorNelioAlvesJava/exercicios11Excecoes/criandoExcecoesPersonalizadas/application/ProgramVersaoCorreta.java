@@ -1,12 +1,11 @@
 package professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.application;
 
 import professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.entitites.Reservation;
-import professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.exceptions.DomainException;
+import professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.entitites.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ProgramVersaoCorreta {

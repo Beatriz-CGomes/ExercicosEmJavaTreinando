@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.exceptions;
+package professorNelioAlvesJava.exercicios11Excecoes.criandoExcecoesPersonalizadas.model.entitites.exceptions;
 
 
 //Quando uma classe é exceção tem que colocar o Exception no nome da classe
