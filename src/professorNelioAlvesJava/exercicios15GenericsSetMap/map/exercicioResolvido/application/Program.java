@@ -1,6 +1,6 @@
-package professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicio.application;
+package professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicioResolvido.application;
 
-import professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicio.entities.ProductsMap;
+import professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicioResolvido.entities.ProductsMap;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicio.entities;
+package professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicioResolvido.entities;
 
 import java.util.Objects;
 

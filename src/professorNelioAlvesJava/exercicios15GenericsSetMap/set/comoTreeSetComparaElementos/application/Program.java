@@ -1,6 +1,5 @@
 package professorNelioAlvesJava.exercicios15GenericsSetMap.set.comoTreeSetComparaElementos.application;
 
-import professorNelioAlvesJava.exercicios15GenericsSetMap.set.comoSetTestaIgualdade.entities.ProductsSet;
 import professorNelioAlvesJava.exercicios15GenericsSetMap.set.comoTreeSetComparaElementos.entities.ProductTreeSet;
 
 import java.util.Set;
