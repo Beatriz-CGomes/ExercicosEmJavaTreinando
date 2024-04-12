@@ -1,7 +1,5 @@
 package professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicioDeFixacao.application;
 
-import professorNelioAlvesJava.exercicios15GenericsSetMap.map.exercicioDeFixacao.entities.SistemaVotacao;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -28,10 +26,6 @@ public class Program {
                 String[] fields = line.split(",");
                 String nome = fields[0];
                 int qVotos = Integer.parseInt(fields[1]);
-
-
-                //aqui eu estou instanciando o objeto
-                SistemaVotacao sistemaVotacao = new SistemaVotacao(nome, qVotos);
 
                 if (votos.containsKey(nome)) {
                     int total = votos.get(nome);
