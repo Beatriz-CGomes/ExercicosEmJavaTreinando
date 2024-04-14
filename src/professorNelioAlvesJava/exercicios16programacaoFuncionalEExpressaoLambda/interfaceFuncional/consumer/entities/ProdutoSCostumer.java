@@ -1,15 +1,15 @@
 package professorNelioAlvesJava.exercicios16programacaoFuncionalEExpressaoLambda.interfaceFuncional.consumer.entities;
 
-public class ProdutoCostumer {
+public class ProdutoSCostumer {
 
     private String nome;
     private Double preco;
 
-    public ProdutoCostumer() {
+    public ProdutoSCostumer() {
 
     }
 
-    public ProdutoCostumer(String nome, Double preco) {
+    public ProdutoSCostumer(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }
@@ -31,7 +31,7 @@ public class ProdutoCostumer {
     }
 
     //essa é uma forma de  se refazer com Reference com metado estatico ao inves da gente criar a classe Predicate
-    public static void staticPrecoUpdate(ProdutoCostumer c) {
+    public static void staticPrecoUpdate(ProdutoSCostumer c) {
         c.setPreco(c.getPreco() * 1.1);
     }
 
@@ -43,7 +43,7 @@ public class ProdutoCostumer {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Nome: " + getNome() + ", R$ " + getPreco());
+        sb.append("Nome: " + getNome() + ", R$ " + String.format("%.2f", getPreco()));
         return sb.toString();
     }
 }
