@@ -1,15 +1,15 @@
 package professorNelioAlvesJava.exercicios16programacaoFuncionalEExpressaoLambda.interfaceFuncional.predicate.entities;
 
-public class ProdutoPredicate {
+public class ProdutosPPredicate {
 
     private String nome;
     private Double preco;
 
-    public ProdutoPredicate() {
+    public ProdutosPPredicate() {
 
     }
 
-    public ProdutoPredicate(String nome, Double preco) {
+    public ProdutosPPredicate(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }
@@ -31,7 +31,7 @@ public class ProdutoPredicate {
     }
 
     //essa é uma forma de  se refazer com Reference com metado estatico ao inves da gente criar a classe Predicate
-    public static boolean staticProdutoPredicate(ProdutoPredicate p) {
+    public static boolean staticProdutoPredicate(ProdutosPPredicate p) {
         return p.getPreco() >= 100.0;
     }
 

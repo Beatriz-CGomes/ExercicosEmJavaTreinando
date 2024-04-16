@@ -1,14 +1,14 @@
 package professorNelioAlvesJava.exercicios16programacaoFuncionalEExpressaoLambda.interfaceFuncional.umaExperienciaComComparador.entities;
 
-public class ProdutoComparador {
+public class ProdutoCComparador {
 
     private String nome;
     private Double preco;
 
-    public ProdutoComparador(){
+    public ProdutoCComparador(){
 
     }
-    public ProdutoComparador(String nome, Double preco) {
+    public ProdutoCComparador(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }
